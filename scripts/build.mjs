@@ -5,7 +5,7 @@ import fs from 'fs'
 import config from '../nav.config.js'
 import path from 'path'
 
-const dbPath = path.join('.', 'data', 'db.json')
+const dbPath = path.join('.', 'nav_data', 'db.json')
 const pkgPath = path.join('package.json')
 
 const pkg = JSON.parse(fs.readFileSync(pkgPath).toString())
